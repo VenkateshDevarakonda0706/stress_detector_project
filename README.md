@@ -28,7 +28,8 @@ venv\Scripts\activate
 python app.py
 ```
 
-##
+## to deactivate 
+```deactivate```
 
 ## 🔮 Future Scope
 - Add more emotion classes (anger, anxiety)
