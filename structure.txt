@@ -8,3 +8,40 @@
 │   └── index.html          # Web interface
 └── README.md               # Project overview and setup instructions
 
+```
+How to Run Flask App in VS Code
+🔹 Step-by-step:
+✅ Make sure you are in your project directory.
+
+✅ Open terminal in VS Code (Ctrl + ` ).
+
+✅ Create and activate a virtual environment (optional but clean):
+
+bash
+Copy
+Edit
+python -m venv venv
+venv\\Scripts\\activate  # On Windows
+✅ Install required packages:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+✅ Run the app using:
+
+bash
+Copy
+Edit
+python app.py
+OR (if using flask environment method):
+
+bash
+Copy
+Edit
+set FLASK_APP=app.py
+set FLASK_ENV=development
+flask run
+This will start the app at: http://127.0.0.1:5000
+
+```
