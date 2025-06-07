@@ -1,0 +1,10 @@
+📁 stress_detector_project/
+├── app.py                  # Flask app to interact with the model
+├── model.pkl               # Saved trained model
+├── vectorizer.pkl          # Saved TF-IDF vectorizer
+├── utils.py                # Preprocessing and suggestion logic
+├── dataset.csv             # Dataset with text and emotion labels
+├── templates/
+│   └── index.html          # Web interface
+└── README.md               # Project overview and setup instructions
+

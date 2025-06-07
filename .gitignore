@@ -1,0 +1,47 @@
+#.gitingmore file
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# VS Code & Visual Studio
+.vscode/
+.vs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model and output files
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller build
+dist/
+build/
+*.spec
+
+# Test and coverage
+htmlcov/
+.tox/
+.coverage
+.cache/
+pytest_cache/
+
+# Dataset (OPTIONAL - UNCOMMENT TO IGNORE CSV FILES)
+# *.csv
